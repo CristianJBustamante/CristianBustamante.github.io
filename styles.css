@@ -3,13 +3,25 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f2f2f2;
 }
 
-header {
+.header-content {
     text-align: center;
-    background-color: #333;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
     color: #fff;
-    padding: 20px;
+    padding: 100px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.5em;
 }
 
 nav ul {
@@ -23,8 +35,12 @@ nav li {
 }
 
 /* Estilos de secciones */
-section {
+.section {
     padding: 40px;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Estilos de proyectos */
@@ -47,3 +63,4 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
